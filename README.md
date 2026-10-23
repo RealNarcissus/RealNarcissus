@@ -1,13 +1,36 @@
-### Hi, I'm Anish Mishra
+```text
+anish@bangalore:~$ whoami
+Anish Mishra · CS undergrad @ Woxsen, Bangalore
+quant research & low-level systems · C++ / Rust / Go / Python
+I stare at order books until one of us blinks.
 
-CS undergrad @ Woxsen, Bangalore · quant research & low-level systems · C++ / Rust / Go / Python
+anish@bangalore:~$ cat currently.txt
+[██░░░░░░░░]  C++ limit-order-book engine + latency benchmarks
+[███░░░░░░░]  Codeforces → 1400+
+[░░░░░░░░░░]  fruit-fly DL → github        # waiting for git push
 
-Five projects shipped in the last eight months:
+anish@bangalore:~$ ls ~/shipped
+prediction-market-microstructure/  5m/15m binaries: fair value, calibration, live falsification
+macRun/                            macOS apps on Linux via Darling (C++)
+Rune/                              keyboard-first desktop search: Go daemon + Tauri/Svelte
+drift/                             quick-capture HUD for Obsidian (Rust)
 
-- **[prediction-market-microstructure](https://github.com/RealNarcissus/prediction-market-microstructure)** — Python. 57 days of live tick collection, venue-accurate fair value, and a pre-registered live falsification of a crypto Up/Down trading gate: backtest **+7.98c/trade** became **−2.22c live** (95% CI [−4.40, −0.30], n = 1,146) — retired by the pre-registered rule. 85 tests, CI, reproducible figures.
-- **[macRun](https://github.com/RealNarcissus/macRun)** — C++. Run macOS Electron and desktop apps on Linux via a Darling-based compatibility layer — no repackaging, no VM.
-- **[Rune](https://github.com/RealNarcissus/Rune)** — Go + Tauri/Svelte. Keyboard-first desktop search for Linux; prefix-trie index over LMDB.
-- **[drift](https://github.com/RealNarcissus/drift)** — Rust. Quick-capture HUD for Obsidian: global shortcuts, offline buffer, routes notes into your vault.
-- **codeforces** — practice log, working toward 1400+.
+anish@bangalore:~$ tail -n 4 research.log     # disproven, with receipts
+2026-08-26  PHASE-B  official-label retrain: no directional edge ....... KILLED
+2026-08-26  RL       forced-entry policy 49.3-49.6% ≈ random ........... KILLED
+2026-09-14  BOCPD    flow-regime conditioning: ΔEV -0.16c = null ...... KILLED
+2026-10-23  GATE     backtest +7.98c → live -2.22c (95% CI) .......... RETIRED
 
-**Currently:** building a C++ limit-order-book engine with latency benchmarks (the infrastructure side of the prediction-market research) and grinding Codeforces.
+anish@bangalore:~$ sudo make hire
+[sudo] password for anish: ********
+make: Nothing to be done for 'hire'. Everything's in the pinned repos.
+
+anish@bangalore:~$ neofetch
+```
+
+receipts: [GATE_VERDICT.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/staleness/GATE_VERDICT.md) · [BOCPD_EV.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/staleness/BOCPD_EV.md) · [CURRICULUM_RL_RESULTS.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/phase_b/CURRICULUM_RL_RESULTS.md) · [RESULTS.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/RESULTS.md)
+
+<p>
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=RealNarcissus&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8B949E&text_color=C9D1D9" alt="GitHub stats" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RealNarcissus&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=6" alt="Top languages" />
+</p>
