@@ -10,7 +10,7 @@ CS undergrad at Woxsen, based in Bangalore. I build low-level software and test 
 | **[neurocast](https://github.com/RealNarcissus/neurocast)**<br>`PyTorch` `RNN/LSTM/GRU` | Neural dynamics on a full fruit fly connectome. Fifteen configurations, three architectures, best Pearson r = 0.0028. A null, with the diagnostics that explain it. |
 | **[macRun](https://github.com/RealNarcissus/macRun)**<br>`C++20` `Obj-C` | Unmodified macOS Electron apps on Linux. Mach-O loader written from scratch; 20,011 lines. |
 | **[Rune](https://github.com/RealNarcissus/Rune)**<br>`Go` `LMDB` `Svelte` | Keyboard-first file search for Linux. Prefix tries over LMDB; a million paths in 9.6 ms. |
-| **[mantel](https://github.com/RealNarcissus/mantel)**<br>`Python` `GTK4` `libadwaita` | Native GTK4 desktop for local AI agents: tasks, memory, calendar, approvals. v0.1.0. |
+| **[mantel](https://github.com/RealNarcissus/mantel)**<br>`Python` `GTK4` `libadwaita` | Native GTK4 desktop for local agents. Tool approvals are enforced before execution; plugins run out of process behind a per-call timeout and an audit log. v0.1.0. |
 
 ### `02` Currently
 
