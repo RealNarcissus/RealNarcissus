@@ -1,49 +1,22 @@
-```text
-anish@bangalore:~$ whoami
-Anish Mishra · CS undergrad @ Woxsen, Bangalore
-quant + ML research & low-level systems · C++ / Rust / Go / Python
-I stare at order books until one of us blinks.
+## `// quant research, systems, applied ML`
 
-anish@bangalore:~$ cat currently.txt
-[██░░░░░░░░]  C++ limit-order-book engine + latency benchmarks
-[███░░░░░░░]  Codeforces → 1400+
+CS undergrad at Woxsen, based in Bangalore. I build low-level software and test trading ideas.
 
-anish@bangalore:~$ ls ~/shipped
-neurocast/                         165k-neuron fly connectome: RNN/LSTM/GRU → reproducible null
-prediction-market-microstructure/  5m/15m binaries: fair value, calibration, live falsification
-macRun/                             macOS apps on Linux via Darling (C++)
-Rune/                               keyboard-first desktop search: Go daemon + Tauri/Svelte
-drift/                              quick-capture HUD for Obsidian (Rust)
+### `01` Selected work
 
-anish@bangalore:~$ tail -n 5 research.log     # disproven, with receipts
-2026-08-26  PHASE-B   official-label retrain: no directional edge ....... KILLED
-2026-08-26  RL        forced-entry policy 49.3-49.6% ≈ random ........... KILLED
-2026-09-14  BOCPD     flow-regime conditioning: ΔEV -0.16c = null ...... KILLED
-2026-09-15  NeuroCast fly-connectome forecasting: free-running r = 0.0004 ... NULL
-2026-10-23  GATE      backtest +7.98c → live -2.22c (95% CI) .......... RETIRED
+| Repo | What it is |
+| :--- | :--- |
+| **[prediction-market-microstructure](https://github.com/RealNarcissus/prediction-market-microstructure)**<br>`Python` `polars` `scikit-learn` | Fair value and isotonic calibration for 5m/15m crypto Up/Down binaries. +7.98¢/trade in backtest; −2.22¢/trade over 15 days of live paper trading. Retired by a rule written before the window opened. |
+| **[neurocast](https://github.com/RealNarcissus/neurocast)**<br>`PyTorch` `RNN/LSTM/GRU` | Neural dynamics on a full fruit fly connectome. Fifteen configurations, three architectures, best Pearson r = 0.0028. A null, with the diagnostics that explain it. |
+| **[macRun](https://github.com/RealNarcissus/macRun)**<br>`C++20` `Obj-C` | Unmodified macOS Electron apps on Linux. Mach-O loader written from scratch; 20,011 lines. |
+| **[Rune](https://github.com/RealNarcissus/Rune)**<br>`Go` `LMDB` `Svelte` | Keyboard-first file search for Linux. Prefix tries over LMDB; a million paths in 9.6 ms. |
+| **[mantel](https://github.com/RealNarcissus/mantel)**<br>`Python` `GTK4` `libadwaita` | Native GTK4 desktop for local AI agents: tasks, memory, calendar, approvals. v0.1.0. |
 
-anish@bangalore:~$ sudo make hire
-[sudo] password for anish: ********
-make: Nothing to be done for 'hire'. Everything's in the pinned repos.
+### `02` Currently
 
-anish@bangalore:~$ neofetch
-```
+Writing up the execution forensics behind the −2.22¢ result. Next: an order-book engine in C++ with
+latency benchmarks.
 
-<table>
-  <tr>
-    <td width="400"><img src="https://raw.githubusercontent.com/RealNarcissus/neurocast/main/docs/figures/ascii-magic-1.png" width="400" alt="MaleCNS v1.0 connectome — from neurocast"></td>
-    <td><pre>
-anish@bangalore
-────────────────
-OS:        Arch Linux x86_64
-Kernel:    7.2.4-arch1-2
-Shell:     zsh
-Host:      github.com/RealNarcissus
-CPU:       C++ / Rust / Go / Python
-Memory:    limit-order-books · fly connectomes
-Rating:    Codeforces ███░░░░░░ → 1400+
-</pre></td>
-  </tr>
-</table>
+### `03` Environment
 
-receipts: [GATE_VERDICT.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/staleness/GATE_VERDICT.md) · [BOCPD_EV.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/staleness/BOCPD_EV.md) · [CURRICULUM_RL_RESULTS.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/phase_b/CURRICULUM_RL_RESULTS.md) · [RESULTS.md](https://github.com/RealNarcissus/prediction-market-microstructure/blob/main/research/RESULTS.md) · [FREEZE.md](https://github.com/RealNarcissus/neurocast/blob/main/docs/tier1/FREEZE.md)
+`Arch Linux` · `C++20` · `Go` · `Rust` · `Python / PyTorch`<br>[anishmishra.qdev@gmail.com](mailto:anishmishra.qdev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anish-m-349a783b2/)
